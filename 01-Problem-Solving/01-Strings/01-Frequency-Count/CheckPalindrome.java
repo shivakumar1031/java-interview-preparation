@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class check_palindrom {
+public class CheckPalindrome {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         String str = sc.nextLine();
@@ -18,3 +18,10 @@ public class check_palindrom {
 
     }
 }
+/*
+    Input:
+    racecat
+    
+    Ouput:
+    Not Palindrome
+*/

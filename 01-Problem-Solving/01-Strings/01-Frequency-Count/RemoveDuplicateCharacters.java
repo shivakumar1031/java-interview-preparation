@@ -7,7 +7,7 @@ import java.util.Scanner;
 | Preserve insertion order | Traverse the original string          |
 | Alphabetical order       | Traverse the `count[]` array          |*/
 
-public class Remove_dupli_char {
+public class RemoveDuplicateCharacters{
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter String: ");

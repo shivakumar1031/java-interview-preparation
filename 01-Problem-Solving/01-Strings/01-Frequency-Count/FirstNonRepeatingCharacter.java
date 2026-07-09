@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class First_non_repeating_char{
+public class FirstNonRepeatingCharacter{
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the String : ");

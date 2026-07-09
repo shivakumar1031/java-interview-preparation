@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public  class Print_dupli_char{
+public  class PrintDuplicateCharacters{
 
     /* Printing duplicates 
     -> first we need to count frequency of the characters with using string length

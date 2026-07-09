@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class anagram {
+public class Anagram{
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter first String: ");
@@ -24,3 +24,12 @@ public class anagram {
         System.out.println(b);
     }
 }
+/*  Input:
+    Enter first String: 
+    programming
+    Enter second String: 
+    programming
+
+    Output:
+    true
+*/

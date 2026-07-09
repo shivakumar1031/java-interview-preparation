@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class CountVowel {
+public class CountVowels {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter String: ");
@@ -17,3 +17,11 @@ public class CountVowel {
 
     }
 }
+/*
+    Input:
+    Enter String: 
+    programming
+
+    Ouput:
+    Vowel = 3
+*/

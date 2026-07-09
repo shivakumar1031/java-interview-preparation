@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class All_uniq_char {
+public class AllUniqueCharacters {
     public static void main (String args[]){
         Scanner sc = new Scanner(System.in);
         String str  = sc.nextLine().toLowerCase();
@@ -19,3 +19,9 @@ public class All_uniq_char {
         
     }
 }
+/*it checks the string wheater it is having all unique characters or not;
+    Input:
+    programming
+    Output:
+    false
+*/
