@@ -1,0 +1,21 @@
+import java.util.Scanner;
+public class First_non_repeating_char{
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the String : ");
+        String str = sc.nextLine().toLowerCase();
+        int count[] = new int[26];
+        for(int i=0;i<str.length();i++){
+            char ch = str.charAt(i);
+            if(ch>='a'&&ch<='z')
+                count[str.charAt(i)-'a']++;
+        }
+        for(int i=0;i<str.length();i++){
+            char ch=str.charAt(i);
+            if(ch>='a'&& ch<='z' && count[str.charAt(i)-'a']==1){
+                System.out.println(str.charAt(i));
+            break;
+            }
+        }
+    }
+}
