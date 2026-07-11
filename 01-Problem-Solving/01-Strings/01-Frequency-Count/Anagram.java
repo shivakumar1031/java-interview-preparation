@@ -28,7 +28,7 @@ public class Anagram{
     Enter first String: 
     programming
     Enter second String: 
-    programming
+    porrgammign
 
     Output:
     true
