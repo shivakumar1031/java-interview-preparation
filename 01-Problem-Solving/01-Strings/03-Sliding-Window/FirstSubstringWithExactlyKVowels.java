@@ -68,7 +68,7 @@ public class FirstSubstringWithExactlyKVowels {
             left++;
             right++;
             if(count==2){
-                System.out.println(str.substring(left, right));
+                System.out.println("first substring have exactly one vowel: "+str.substring(left, right));
                 return;
             }
         }

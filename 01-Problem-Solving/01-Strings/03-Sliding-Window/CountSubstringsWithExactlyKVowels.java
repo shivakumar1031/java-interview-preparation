@@ -69,7 +69,7 @@ public class CountSubstringsWithExactlyKVowels {
             if(count==2)
                 answer++;
         }
-        System.out.println("Maximum Vowels In Sliding Window where vowels are exactly 2 is : "+(answer));
+        System.out.println("Maximum Vowels In Sliding Window k where vowels are exactly 2 is : "+(answer));
         
 
     }
