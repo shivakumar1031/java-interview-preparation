@@ -1,3 +1,12 @@
+/*
+Sample Input:
+Enter the String : 
+shivasas
+
+Sample Output:
+h
+
+*/
 import java.util.Scanner;
 public class FirstNonRepeatingCharacter{
     public static void main(String[] args) {
