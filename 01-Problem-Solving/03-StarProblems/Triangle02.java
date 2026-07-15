@@ -1,3 +1,20 @@
+/*
+Sample Input :
+
+Enter the number: 
+                6
+
+Sample Output:
+            * * * * * * 
+            * * * * * 
+            * * * * 
+            * * * 
+            * * 
+            *
+*/
+
+
+
 import java.util.Scanner;
 public class Triangle02 {
     public static void main(String[] args) {

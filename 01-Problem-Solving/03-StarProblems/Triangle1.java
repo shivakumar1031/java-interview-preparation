@@ -1,3 +1,15 @@
+/*
+Sample Input:
+            5
+
+Sample Output:
+            * 
+            * * 
+            * * * 
+            * * * * 
+            * * * * * 
+*/
+
 import java.util.Scanner;
 public class Triangle1 {
     public static void main(String[] args) {
